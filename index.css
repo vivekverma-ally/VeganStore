@@ -1,0 +1,202 @@
+header {
+  background-color: seashell;
+  height: fit-content;
+}
+#watch_video {
+  color: black;
+  text-decoration: none;
+}
+#buy_now {
+  background-color: darkolivegreen;
+  border-radius: 5px;
+  box-shadow: none;
+}
+select {
+  border: none;
+}
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 600px;
+}
+.icons {
+  width: 50px;
+  height: 50px;
+}
+.column_content {
+  margin: 100px 15px;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.primary-button {
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(170, 210, 54);
+  padding: 9px 34px;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  margin-right: 16px;
+  cursor: pointer;
+  outline: none;
+}
+
+nav {
+  width: 100%;
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 28px;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+#logo {
+  width: 40px;
+}
+
+.dropdown-wrapper {
+  display: inline-block;
+  position: relative;
+}
+.menu-items {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 24px;
+  cursor: pointer;
+}
+.dropdown {
+  width: 150px;
+  font-family: "Poppins", sans-serif;
+  border-top: 2px solid rgb(170, 210, 54);
+  background-color: white;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 20px;
+  position: absolute;
+  right: 24px;
+  display: none;
+}
+.menu-items i {
+  padding-left: 4px;
+}
+#menu-right :first-of-type:hover .dropdown {
+  display: block;
+}
+.dropdown p {
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+#desc {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#desc h1 {
+  width: 100%;
+  max-width: 1100px;
+  font-size: 44px;
+  font-weight: 600;
+  letter-spacing: 8.8px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+}
+#desc p {
+  width: 100%;
+  max-width: 1100px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #8b8b99;
+  text-align: center;
+  padding-top: 32px;
+}
+.store-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.store-item i {
+  font-size: 60px;
+  width: 60px;
+  height: 60px;
+  color: white;
+}
+.store-item {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #e3b375;
+  padding: 40px;
+}
+
+.card {
+  border: none;
+  background-color: #f5f6fb;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 30px;
+}
+img {
+  width: 5rem;
+  border-radius: 5rem;
+  margin: 1.3rem auto 1.3rem auto;
+}
+
+.col-md-4 {
+  padding: 0 0.5rem;
+}
+.card-text {
+  text-align: center;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  font-style: italic;
+  color: grey;
+  line-height: 1.4rem;
+}
+
+.footer {
+  border-top: none;
+  text-align: center;
+  line-height: 1.2rem;
+  padding: 2rem 0 1.4rem 0;
+  font-family: "Varela Round";
+}
+
+#name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#position {
+  font-size: 0.7rem;
+}
+
+.copyright {
+  padding: 20px 0;
+  margin-top: 55px;
+  background-color: #202020;
+}
+.copyright span,
+.copyright a {
+  color: #878787;
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
